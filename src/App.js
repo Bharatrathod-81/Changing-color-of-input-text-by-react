@@ -17,9 +17,7 @@ export default function App() {
       <input onChange={change}></input>
       <button onClick={() => click1("red")}>red</button>
       <button onClick={() => click1("blue")}>blue</button>
-      <button onClick={() => click1("green")}>
-        green
-      </button>
+      <button onClick={() => click1("green")}>green</button>
       <p style={{ color: raw }}>{show}</p>
     </div>
   );
